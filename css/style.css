@@ -83,11 +83,6 @@ font-size: 30px;
   
 }
 
-.colores-productos{
-  color: black;
-  font-weight: bold;
-}
-
 table{
   border: solid;
   color: rgb(0, 255, 0);
@@ -107,7 +102,7 @@ main ul li img{
 }
 
 .logo-redes{
-  border-radius: 150px;
+  border-radius: 5px;
   border: solid goldenrod 3px;
 }
 
@@ -162,4 +157,110 @@ main ul li img{
   .grid-nosotros {
     grid-template-columns: 1fr;
   }
+}
+/*estilo pagina contacto*/
+main section p {
+  background-color: rgb(255, 255, 255);
+  margin: 0 0 15px 0;
+  
+}
+
+h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: rgb(255, 255, 255);
+  margin: 8px 0 8px 0;
+}
+
+main section a {
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  margin: 8px 0 8px 0;
+  color: rgb(21, 99, 23);
+  font-weight: bold;
+}
+
+.flex-section-contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+/*fin estilo pagina contacto*/
+
+/* estilo de boostrap modificado*/
+.nav-mio{
+  background-color: green;
+  color: aliceblue;
+  margin-left: 10px;
+  border-radius: 5px;
+  justify-self: center;
+}
+
+.d-flex-mio{
+  display: flex;
+  margin-left: 35%;
+}
+/*estilo de tabla centrado*/
+div table{
+  text-align: center;
+  margin: 0 auto;
+}
+/*fin estilo de tabla centrado*/
+
+/*posicionamiento de productos*/
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  row-gap: 25px;
+  margin: 10px 0 10px 0;
+}
+
+@media (max-width: 576px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-mio{
+  background-color: green;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.btn-primary-mio{
+  background-color: rgb(17, 85, 48);
+  justify-content: center;
+}
+ 
+/*hover productos*/
+.btn-primary-mio:hover{
+  background-color: rgb(43, 226, 134);
+}
+.card-title-mio:hover{
+color: black;
+}
+/*final de hover productos*/
+
+.card-text-mio{
+  background-color: transparent;
+  
+}
+
+.card-title-mio{
+  text-decoration: underline;
+  
+}
+/* fin de posicionamiento de productos*/
+
+/*estilo formulario contacto*/
+.estilo-formulario-contacto{
+  background-color: green;
+  font-weight: bold;
+  margin: 40px 25px 40px 25px;
+  border-radius: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
