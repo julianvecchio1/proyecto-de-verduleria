@@ -1,0 +1,44 @@
+.card-mio{
+    background-color: green;
+    color: $link-color;
+    font-weight: $weight;
+    .card-title-mio{
+        text-decoration: underline;
+      }
+}
+  
+  .btn-primary-mio{
+    background-color: rgb(17, 85, 48);
+    justify-content: center;
+  }
+  
+  .card-text-mio{
+    background-color: transparent;
+  }
+  
+  
+  
+  
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    row-gap: 25px;
+    margin: 10px 0 10px 0;
+  }
+  
+  @media (max-width: 576px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  
+  .btn-primary-mio:hover{
+    background-color: rgb(43, 226, 134);
+  }
+  .card-title-mio:hover{
+  color: black;
+  }

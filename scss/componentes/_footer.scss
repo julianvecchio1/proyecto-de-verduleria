@@ -1,0 +1,22 @@
+.footer{
+    color: rgb(0, 0, 0);
+    font-weight: $weight;
+    text-align: center;
+    background-color: $primary-color;
+    margin-top: 10%;
+        p{
+        font-size: 30px;
+        }
+    }
+  
+  
+  .flex-redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    li a{
+        text-decoration: none;
+        color: $link-color;
+        }
+    }
+  
