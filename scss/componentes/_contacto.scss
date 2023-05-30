@@ -33,3 +33,9 @@ main section p {
     border-radius: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+
+.form-check-input-mio:checked{
+background-color: rgb(38, 107, 29);
+color: rgb(18, 87, 16);
+border-color: rgb(6, 56, 6);
+}

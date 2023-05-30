@@ -8,8 +8,10 @@
 }
   
   .btn-primary-mio{
-    background-color: rgb(17, 85, 48);
+    background-color: rgb(13, 134, 68);
     justify-content: center;
+    border-color: green;
+
   }
   
   .card-text-mio{
@@ -36,9 +38,17 @@
   }
   
   
-  .btn-primary-mio:hover{
-    background-color: rgb(43, 226, 134);
-  }
-  .card-title-mio:hover{
+  .card-title-mio:hover {
   color: black;
+  }
+
+  .btn-primary-mio:hover {
+    background-color: rgb(35, 202, 63);
+    color: rgb(0, 0, 0);
+    border: rgb(0, 255, 34);
+  }
+  
+  .btn-primary-mio:focus{
+    color: rgb(0, 255, 170);
+    background-color: rgb(9, 75, 34);
   }

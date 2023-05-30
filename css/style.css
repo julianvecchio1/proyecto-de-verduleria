@@ -144,8 +144,9 @@ h2 {
 }
 
 .btn-primary-mio {
-  background-color: rgb(17, 85, 48);
+  background-color: rgb(13, 134, 68);
   justify-content: center;
+  border-color: green;
 }
 
 .card-text-mio {
@@ -166,12 +167,19 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
-.btn-primary-mio:hover {
-  background-color: rgb(43, 226, 134);
-}
-
 .card-title-mio:hover {
   color: black;
+}
+
+.btn-primary-mio:hover {
+  background-color: rgb(35, 202, 63);
+  color: rgb(0, 0, 0);
+  border: rgb(0, 255, 34);
+}
+
+.btn-primary-mio:focus {
+  color: rgb(0, 255, 170);
+  background-color: rgb(9, 75, 34);
 }
 
 table {
@@ -234,6 +242,12 @@ main section a {
   margin: 40px 25px 40px 25px;
   border-radius: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.form-check-input-mio:checked {
+  background-color: rgb(38, 107, 29);
+  color: rgb(18, 87, 16);
+  border-color: rgb(6, 56, 6);
 }
 
 /*# sourceMappingURL=style.css.map */
